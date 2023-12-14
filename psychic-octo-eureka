@@ -1,0 +1,9 @@
+case .changeLineSpacing(let spacing):
+            newText.lineSpacing = spacing
+            
+        case .changeAlignment(let alignment):
+            newText.alignment = alignment
+            
+        case .changeText(let text):
+            newText.text = text
+            
